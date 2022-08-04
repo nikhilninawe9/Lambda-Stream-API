@@ -1,0 +1,8 @@
+Multiple never possible before java 8
+as
+extending classes doesnt allow multiple classes to get extended, but it was allowed in case of interface.
+But prior to java 8 interface doesnt allows methods with body so multiple inheritance in case of interface 
+was impossible.
+
+But now after java8 interface allows the default and static methods along with abstract methods so now
+we can achieve multiple inheritance with interfaces..

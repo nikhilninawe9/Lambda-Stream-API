@@ -1,0 +1,26 @@
+SYNTAX OF METHOD REFERENCE
+
+1. ClassName::instance-methodName
+2. ClassName::static-methodName
+3. Instance::methodName
+
+
+USING LAMBDA
+
+Function<String,String> toUpperCaseLambda=(s)-> s.toUpperCase();
+
+USING METHOD REFERENCE
+
+Function<String,String> toUpperCaseMethodReference=String::tuUpperCase;
+
+NOTE: Method reference is not applicable for Predicate
+
+
+USING CONSTRUCTOR REFERENCE
+
+Classname::new
+
+ex. Supplier<Student> student=Student::new
+
+NOTE: It works with supplier only
+  
